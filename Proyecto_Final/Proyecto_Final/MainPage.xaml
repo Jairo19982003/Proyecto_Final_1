@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Proyecto_Final.MainPage">
+    <ScrollView>
+        <StackLayout Padding="20">
+            <Label x:Name="relleno" FontSize="18" />
+            <Label x:Name="Marca" FontSize="18" />
+            <Label x:Name="Modelo" FontSize="18" />
+            <Label x:Name="Color" FontSize="18" />
+            <Label x:Name="Anio" FontSize="18" />
+            <Label x:Name="Placa" FontSize="18" />
+            <Label x:Name="Tipo" FontSize="18" />
+            <Label x:Name="Velocidades" FontSize="18" />
+            <Label x:Name="Form" FontSize="18" />
+            <Button Text="Encender Vehiculo" Clicked="EncenderAutomovil_Clicked" />
+            <Button Text="Bocinas  " Clicked="Bocinas_Clicked" />
+            <Button Text="Acelerar Vehiculo" Clicked="AcelerarAutomovil_Clicked" />
+            <Label x:Name="Velocidadactual" FontSize="20" />
+            <Button Text="Frenar Vehiculo" Clicked="Frenar_Clicked" />
+            <Button Text="Apagar Vehiculo" Clicked="Apagar_Cliked" />
+           
+            <Label x:Name="Marca2" FontSize="18" />
+            <Label x:Name="Modelo2" FontSize="18" />
+            <Label x:Name="Color2" FontSize="18" />
+            <Label x:Name="Anio2" FontSize="18" />
+            <Label x:Name="Placa2" FontSize="18" />
+            <Label x:Name="Tipo2" FontSize="18" />
+            <Label x:Name="Llantas" FontSize="18" />
+            <Label x:Name="Motor" FontSize="18" />
+            <Label x:Name="Radio" FontSize="18" />
+            
+            <Label x:Name="Form1" FontSize="18" />
+            <Button Text="Encender PickUp  " Clicked="Encenderpickup" />
+            <Button Text="FourWeelTraction  " Clicked="Es_4x4" />
+            
+            <Label x:Name="Marca3" FontSize="18" />
+            <Label x:Name="Modelo3" FontSize="18" />
+            <Label x:Name="Color3" FontSize="18" />
+            <Label x:Name="Anio3" FontSize="18" />
+            <Label x:Name="Placa3" FontSize="18" />
+            <Label x:Name="Tipo3" FontSize="18" />
+            <Label x:Name="Tablero" FontSize="18" />
+            <Label x:Name="Sillones" FontSize="18" />
+            <Label x:Name="AireAcondiconado" FontSize="18" />
+            
+            <Label x:Name="Form2" FontSize="18" />
+            <Button Text="Encender Sedan  " Clicked="EncenderSedan" />
+            <Button Text="Abrir baul  " Clicked="Abrirbaul" />
+            <Button Text="Cerrar baul " Clicked="Cerrarbaul" />
+            <Button Text="Activar aire acondicionado" Clicked="Act_Aire_Acondicionado"/>
+            <Button Text="Activar Quemacocos" Clicked="Quema_Cocos"/>
+            
+            <Label x:Name="Marca4" FontSize="18" />
+            <Label x:Name="Modelo4" FontSize="18" />
+            <Label x:Name="Color4" FontSize="18" />
+            <Label x:Name="Anio4" FontSize="18" />
+            <Label x:Name="Placa4" FontSize="18" />
+            <Label x:Name="Tipo4" FontSize="18" />
+            <Label x:Name="Rapido" FontSize="18" />
+            <Label x:Name="Seguro" FontSize="18" />
+            <Label x:Name="Robusto" FontSize="18" />
+            
+            <Label x:Name="Form3" FontSize="18" />
+            <Button Text="Enceder SUV " Clicked="EncenderSUV" />
+            <Button Text="Abrir Capo " Clicked="Abrircapo" />
+           
+         
+            <Label x:Name="Marca5" FontSize="18" />
+            <Label x:Name="Modelo5" FontSize="18" />
+            <Label x:Name="Color5" FontSize="18" />
+            <Label x:Name="Anio5" FontSize="18" />
+            <Label x:Name="Placa5" FontSize="18" />
+            <Label x:Name="Tipo5" FontSize="18" />
+            <Label x:Name="Fuerte" FontSize="18" />
+            <Label x:Name="Duro" FontSize="18" />
+            <Label x:Name="Costoso" FontSize="18" />
+           
+            <Label x:Name="Form4" FontSize="18" />
+            <Button Text="Enceder 4x4 " Clicked="Encender4x4" />
+            <Button Text="Encender Luces " Clicked="Luces" />
+        </StackLayout>
+    </ScrollView>
+</ContentPage>
